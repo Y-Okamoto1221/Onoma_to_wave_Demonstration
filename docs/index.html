@@ -23,21 +23,32 @@
     <br>
     <!--<div align="left">-->
     <p>
-    This is a demonstration of environmental sound synthesis from onomatopoeic words [1]. As sounds of the dataset, we used 10 different sound events (manual coffee grinder, cup clinking, alarm clock ringing, whistle, maracas, drum, electric shave, trash box banging, tearing paper, bell ringing) contained in the RWCP-SSD (Real World Computing Partnership-sound Scene Database) [2]. For the onomatopoeic words corresponding to each sound sample, we used the dataset in RWCP-SSD-Onomatopoeia [3]. 
+    This is a demonstration of environmental sound synthesis from onomatopoeic words [1]. As sounds of the dataset, we used 10 different sound events (manual coffee grinder, cup clinking, alarm clock ringing, whistle, maracas, drum, electric shave, trash box banging, tearing paper, bell ringing) contained in the RWCP-SSD (Real World Computing Partnership-sound Scene Database) [2]. For the onomatopoeic words corresponding to each sound sample, we used the dataset in RWCP-SSD-Onomatopoeia [3].
     </p>
-    <!--</div>-->
-	<div align="left">
-        <left><b>Input phoneme sequence: / ch i: q /</b></left><br>
     <table border="1", align="left">
-        <tr>
-        <th>KanaWave</th>
-        <th>Seq2seq<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (cup1)<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (shaver)<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (whistle)<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (tearing paper)<br><font color="#0000ff">(Proposed)</font></th>
-        </tr>
     <tr>
+    <th>Natural sound</th>
+    <th>KanaWave</th>
+    <th>Seq2seq<br><font color="#0000ff">(Proposed)</font></th>
+    <th colspan="4">Seq2Seq + event label<br><font color="#0000ff">(Proposed)</font></th>
+    </tr>
+    <td colspan="7"><left><b>Input phoneme sequence: / ch i: q /</b></left><br></td>
+    <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>Cup1</th>
+    <th>Shaver</th>
+    <th>Whistle</th>
+    <th>Tearing paper</th>
+    </tr>
+    <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/natural/whistle3_018_chi_q.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
     <td>
 	<audio controls="">
     <source src="./sound/KanaWave/chi_q.wav" type="audio/wav">
@@ -76,9 +87,9 @@
     </audio>
     </center>
     </td>
-	</div>
     </tr>
-    </table>
+	</div>
+    <td colspan="7"><left><b>&nbsp;Phoneme sequence: / b o N q /</b></left><br></td>
     <br>
     <br>
     <br>
@@ -89,17 +100,20 @@
 
 
 
-    <div align="left">
-        <!--<center><b>コーヒー豆をミルで挽く音</b></center>-->
-        <left><b>Input phoneme sequence: / b o N q /</b></left><br>
-    <table border="1", align="left">
-        <tr>
-        <th>KanaWave</th>
-        <th>Seq2seq<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (drum)<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (trash box)<br><font color="#0000ff">(Proposed)</font></th>
-        </tr>
     <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>Drum</th>
+    <th>Trash box</th>
+    </tr>
+    <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/natural/trashbox_002_boNq.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
     <td>
     <audio controls="">
     <source src="./sound/KanaWave/boNq.wav" type="audio/wav">
@@ -124,8 +138,9 @@
     Your browser does not support the audio element.
     </audio>
     </td>
+    </tr>
     </div>
-    </table>
+    <td colspan="7"><left><b>&nbsp;Phoneme sequence: / r i N r i N /</b></left><br></td>
     <br>
     <br>
     <br>
@@ -134,21 +149,20 @@
     <br>
 
 
-
-
-
-
-    <div align="left">
-        <!--<center><b>コーヒー豆をミルで挽く音</b></center>-->
-        <left><b>Input phoneme sequence: / r i N r i N /</b></left><br>
-    <table border="1", align="left">
-        <tr>
-        <th>KanaWave</th>
-        <th>Seq2seq<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (bell)<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (clock)<br><font color="#0000ff">(Proposed)</font></th>
-        </tr>
     <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>Bell</th>
+    <th>Clock</th>
+    </tr>
+    <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/natural/bells5_000_riNriN.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
     <td>
     <audio controls="">
     <source src="./sound/KanaWave/riNriN.wav" type="audio/wav">
@@ -173,8 +187,9 @@
     Your browser does not support the audio element.
     </audio>
     </td>
+    </tr>
     </div>
-    </table>
+    <td colspan="7"><left><b>&nbsp;Phoneme sequence: / b i i i i /</b></left><br></td>
     <br>
     <br>
     <br>
@@ -185,20 +200,21 @@
 
 
 
-
-
-    <div align="left">
-        <!--<center><b>コーヒー豆をミルで挽く音</b></center>-->
-        <left><b>Input phoneme sequence: / b i i i i /</b></left><br>
-    <table border="1", align="left">
-        <tr>
-        <th>KanaWave</th>
-        <th>Seq2seq<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (tearing paper)<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (whistle)<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (shaver)<br><font color="#0000ff">(Proposed)</font></th>
-        </tr>
     <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>Tearing paper</th>
+    <th>Whistle</th>
+    <th>Shaver</th>
+    </tr>
+    <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/natural/shaver_034_biiii.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
     <td>
     <audio controls="">
     <source src="./sound/KanaWave/biiii.wav" type="audio/wav">
@@ -232,7 +248,8 @@
     </audio>
     </td>
     </div>
-    </table>
+    </tr>
+    <td colspan="7"><left><b>&nbsp;Phoneme sequence: / sh a r i sh a r i /</b></left><br></td>
     <br>
     <br>
     <br>
@@ -242,20 +259,20 @@
 
 
 
-
-
-
-    <div align="left">
-        <!--<center><b>コーヒー豆をミルで挽く音</b></center>-->
-        <left><b>Input phoneme sequence: / sh a r i sh a r i /</b></left><br>
-    <table border="1", align="left">
-        <tr>
-        <th>KanaWave</th>
-        <th>Seq2seq<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (maracas)<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (manual coffee grinder)<br><font color="#0000ff">(Proposed)</font></th>
-        </tr>
     <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>Maracas</th>
+    <th>Manual coffee grinder</th>
+    </tr>
+    <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/natural/maracas_041_sharishari.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
     <td>
     <audio controls="">
     <source src="./sound/KanaWave/sharishari.wav" type="audio/wav">
@@ -282,8 +299,9 @@
     </audio>
     </center>
     </td>
+    </tr>
     </div>
-    </table>
+    <td colspan="7"><left><b>&nbsp;Phoneme sequence: / k o N: /</b></left><br></td>
     <br>
     <br>
     <br>
@@ -291,22 +309,20 @@
     <br>
     <br>
 
-
-
-
-
-
-    <div align="left">
-        <!--<center><b>コーヒー豆をミルで挽く音</b></center>-->
-        <left><b>Input phoneme sequence: / k o N: /</b></left><br>
-    <table border="1", align="left">
-        <tr>
-        <th>KanaWave</th>
-        <th>Seq2seq<br><font color="#0000ff">(Proposed)</font></th>
-        <th>Seq2Seq + event label (drum)<br><font color="#0000ff"><font color="#0000ff">(Proposed)</font></font></th>
-        <th>Seq2Seq + event label (trash box)<br><font color="#0000ff">(Proposed)</font></th>
-        </tr>
     <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>Drum</th>
+    <th>Trash box</th>
+    </tr>
+    <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/natural/trashbox_038_koN_.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
     <td>
     <audio controls="">
     <source src="./sound/KanaWave/koN_.wav" type="audio/wav">
@@ -331,6 +347,7 @@
     Your browser does not support the audio element.
     </audio>
     </td>
+    </tr>
     </div>
     </table>
     <br>
@@ -339,6 +356,8 @@
     <br>
     <br>
     <br>
+    <br>
+
 
     <div align="left">
     <p>
