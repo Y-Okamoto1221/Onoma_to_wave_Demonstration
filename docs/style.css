@@ -30,3 +30,10 @@ width:50%;
 height:50%;
 }
 
+.td-css-bottom { 
+    border-bottom-style: none;
+} 
+
+.td-css-top { 
+    border-top-style: none;
+} 
