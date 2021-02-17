@@ -1,6 +1,9 @@
 p{
 width: 1600px; 
+margin: 0;
+padding: 0;
 display: inline-block;
+line-height: lem;
 text-align: left;
 }
 
