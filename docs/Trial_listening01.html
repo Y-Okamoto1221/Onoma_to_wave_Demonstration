@@ -1,0 +1,437 @@
+<HTML>
+  <HEAD>
+  <TITLE>【立命館・岡本】合成音のサンプルページ</TITLE>  
+  <meta http-equiv="content-type"  charset="utf-8">
+    </HEAD>
+  <BODY>
+
+<dir id="test"></dir>
+    <center>
+     <br>
+     <br>
+     <font size="6">オノマトペからの環境音合成 デモ</font>
+
+　　 <!--<font size="5">使用した本物の音, 合成音のサンプル</font>-->
+    <br> 
+	<br>
+    <br>
+	<div align="left">
+		<center><b>コーヒー豆をミルで挽く音</b></center>
+        <center><b>オノマトペ：バリバリバリバリ</b></center>
+    <table border="1", align="center">
+        <tr>
+        <th>Original</th>
+        <th>KanaWave</th>
+        <th>Seq2Seq</th>
+        <th>Seq2Seq with Event Conditioning</th>
+        <tr>
+    <td>
+	<audio controls="">
+    <source src="./sound/coffmill_076.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+	<audio controls="">
+    <source src="./sound/coffmill_KanaWave_1126_epoch800_b a r i b a r i b a r i b a r i.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/coffmill_BiLSTM_1126_epoch800_b a r i b a r i b a r i b a r i.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/coffmill_EventCondition_1126_epoch800_b a r i b a r i b a r i b a r i.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+	</div>
+    </table>
+    <br>
+    <br>
+
+
+
+	<div align="left">
+		<center><b>カップを叩く音</b></center>
+        <center><b>オノマトペ：チーンッ</b></center>
+    <table border="1", align="center">
+        <tr>
+        <th>Original</th>
+        <th>KanaWave</th>
+        <th>Seq2Seq</th>
+        <th>Seq2Seq with Event Conditioning</th>
+        <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/cup1_051.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/cup1_KanaWave_1126_epoch800_ch i_ N q.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/cup1_BiLSTM_1126_epoch800_ch i_ N q.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/cup1_EventCondition_1126_epoch800_ch i_ N q.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    </div>
+    </table>
+    <br>
+    <br>
+   
+
+
+
+   <div align="left">
+		<center><b>・目覚まし時計の音</b></center>
+        <center><b>オノマトペ：リリリリリリン</b></center>
+    <table border="1", align="center">
+        <tr>
+        <th>Original</th>
+        <th>KanaWave</th>
+        <th>Seq2Seq</th>
+        <th>Seq2Seq with Event Conditioning</th>
+        <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/clock1_076.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/clock1_KanaWave_1126_epoch800_r i r i r i r i r i r i N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/clock1_BiLSTM_1126_epoch800_r i r i r i r i r i r i N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/clock1_EventCondition_1126_epoch800_r i r i r i r i r i r i N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    </div>
+    </table>
+    <br>
+    <br>
+
+
+
+
+    <div align="left">
+		<center><b>・笛の音</b></center>
+        <center><b>オノマトペ：ピー</b></center>
+    <table border="1", align="center">
+        <tr>
+        <th>Original</th>
+        <th>KanaWave</th>
+        <th>Seq2Seq</th>
+        <th>Seq2Seq with Event Conditioning</th>
+        <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/whistle3_080.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/whistle3_KanaWave_1126_epoch800_p i_.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/whistle3_BiLSTM_1126_epoch800_p i_.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/whistle3_EventCondition_1126_epoch800_p i_.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    </div>
+    </table>
+    <br>
+    <br>
+
+
+
+    <div align="left">
+		<center><b>・マラカスの音</b></center>
+        <center><b>オノマトペ：チャキチャキチャキ</b></center>
+    <table border="1", align="center">
+        <tr>
+        <th>Original</th>
+        <th>KanaWave</th>
+        <th>Seq2Seq</th>
+        <th>Seq2Seq with Event Conditioning</th>
+        <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/maracas_058.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/maracas_KanaWave_1126_epoch800_ch a k i ch a k i ch a k i.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/maracas_BiLSTM_1126_epoch800_ch a k i ch a k i ch a k i.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/maracas_EventCondition_1126_epoch800_ch a k i ch a k i ch a k i.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    </div>
+    </table>
+    <br>
+    <br>
+
+
+
+
+    <div align="left">
+		<center><b>・ドラムを叩く音</b></center>
+        <center><b>オノマトペ：ポンッ</b></center>
+    <table border="1", align="center">
+        <tr>
+        <th>Original</th>
+        <th>KanaWave</th>
+        <th>Seq2Seq</th>
+        <th>Seq2Seq with Event Conditioning</th>
+        <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/drum_000.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/drum_KanaWave_1126_epoch800_p o N q.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/drum_BiLSTM_1126_epoch800_p o N q.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/drum_EventCondition_1126_epoch800_p o N q.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    </div>
+    </table>
+    <br>
+    <br>
+
+
+
+
+    <div align="left">
+		<center><b>・ひげ剃りの動作音</b></center>
+        <center><b>オノマトペ：ブイイイン</b></center>
+    <table border="1", align="center">
+        <tr>
+        <th>Original</th>
+        <th>KanaWave</th>
+        <th>Seq2Seq</th>
+        <th>Seq2Seq with Event Conditioning</th>
+        <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/shaver_004.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/shaver_KanaWave_1126_epoch800_b u i i i N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/shaver_BiLSTM_1126_epoch800_b u i i i N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/shaver_EventCondition_1126_epoch800_b u i i i N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    </div>
+    </table>
+    <br>
+    <br>
+
+
+
+
+    <div align="left">
+		<center><b>・金属製のゴミ箱を叩く音</b></center>
+        <center><b>オノマトペ：ボーン</b></center>
+    <table border="1", align="center">
+        <tr>
+        <th>Original</th>
+        <th>KanaWave</th>
+        <th>Seq2Seq</th>
+        <th>Seq2Seq with Event Conditioning</th>
+        <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/trashbox_057.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/trashbox_KanaWave_1126_epoch800_b o_ N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/trashbox_BiLSTM_1126_epoch800_b o_ N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/trashbox_EventCondition_1126_epoch800_b o_ N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    </div>
+    </table>
+    <br>
+    <br>
+
+
+
+
+    <div align="left">
+		<center><b>・紙を引き裂く音</b></center>
+        <center><b>オノマトペ：ズシャー</b></center>
+    <table border="1", align="center">
+        <tr>
+        <th>Original</th>
+        <th>KanaWave</th>
+        <th>Seq2Seq</th>
+        <th>Seq2Seq with Event Conditioning</th>
+        <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/tear_037.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/tear_KanaWave_1126_epoch800_z u sh a_.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/tear_BiLSTM_1126_epoch800_z u sh a_.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/tear_EventCondition_1126_epoch800_z u sh a_.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    </div>
+    </table>
+    <br>
+    <br>
+
+
+
+
+    <div align="left">
+		<center><b>・ベルを鳴らす音</b></center>
+        <center><b>オノマトペ：ピンチーン</b></center>
+    <table border="1", align="center">
+        <tr>
+        <th>Original</th>
+        <th>KanaWave</th>
+        <th>Seq2Seq</th>
+        <th>Seq2Seq with Event Conditioning</th>
+        <tr>
+    <td>
+    <audio controls="">
+    <source src="./sound/bells5_000.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/bells5_KanaWave_1126_epoch800_p i N ch i_ N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/bells5_BiLSTM_1126_epoch800_p i N ch i_ N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td>
+    <audio controls="">
+    <source src="./sound/bells5_EventCondition_1126_epoch800_p i N ch i_ N.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    </div>
+    </table>
+    <br>
+    </center>
+ 
+
+
+</BODY>
+</HTML>
+
