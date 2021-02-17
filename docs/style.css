@@ -37,3 +37,8 @@ height:50%;
 .td-css-top { 
     border-top-style: none;
 } 
+
+ul, ol {
+  padding-top:0px;
+  padding-bottom:0px;
+}
