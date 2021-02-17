@@ -22,11 +22,11 @@
     <br>
     <br>
     <p>
-    This is a demonstration of environmental sound synthesis from onomatopoeic words [1]. We propose the two types of methods of environmental sound synthesis from onomatopoeic words on the basis of the sequence-to-sequence conversion framework [2] as follows:
+    This is a demonstration of environmental sound synthesis from onomatopoeic words [1]. We propose two methods of environmental sound synthesis from onomatopoeic words on the basis of the sequence-to-sequence conversion framework [2] as follows:
     <ul>
   　　<li><b>Environmental sound synthesis using only onomatopoeic words (seq2seq)</b></li>
   　　<li><b>Environmental sound synthesis using onomatopoeic words and sound event labels (seq2seq + event labels)</b></li>
-        This method uses both onomatopoeic words and sound event labels, which are types of sound events.
+        In addition to onomatopoeic words, this method also uses sound event labels to control the decoder’s output features on the decoder.
 　　</ul>
     As sounds of the dataset, we used 10 different sound events (manual coffee grinder, cup clinking, alarm clock ringing, whistle, maracas, drum, electric shave, trash box banging, tearing paper, bell ringing) contained in the RWCP-SSD (Real World Computing Partnership-sound Scene Database) [3]. For the onomatopoeic words corresponding to each sound sample, we used the dataset in RWCP-SSD-Onomatopoeia [4].
     </p>
