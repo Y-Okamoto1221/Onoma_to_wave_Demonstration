@@ -1,0 +1,30 @@
+p{
+width: 1600px; 
+height: 200px;
+display: inline-block;
+text-align: left;
+}
+
+p.test1{
+width:80%;
+height:50%;
+}
+
+p.test2{
+width:250px;
+height:150px;
+}
+
+div.test3{
+width:250px;
+height:150px;
+background-color:#0000cc;
+color:#ffffff;
+border:3px solid #000000;
+}
+
+p.test4{
+width:50%;
+height:50%;
+}
+
