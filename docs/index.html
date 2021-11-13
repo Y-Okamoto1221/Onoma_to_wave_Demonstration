@@ -36,6 +36,7 @@
     <br>
     <br>
 
+    <p>
     <table border="1", align="left">
     <tr>
     <th>Natural sound</th>
@@ -48,7 +49,7 @@
     <th>Whistle</th>
     <th class="td-css-bottom"></th>
     <th class="td-css-bottom"></th>
-    <th>Cup1</th>
+    <th>Cup</th>
     <th>Shaver</th>
     <th>Whistle</th>
     <th>Tearing paper</th>
@@ -289,14 +290,95 @@
     </tr>
     </div>
     </table>
-    <br>
+    </p>
+    <br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+    <p>
+    <font size="6">Comparison of synthesized sounds with different input onomatopoeic words</font><br><br>
+    <table border="1", align="left">
+    <tr>
+    <th colspan="3">Seq2Seq + event label<br><font color="#0000ff">(Proposed)</font></th>
+    </tr>
+    <td colspan="3"><left><b>&nbsp;Sound event label: Cup</b></left></td>
+    <tr>
+    <td><left><b>&nbsp;Phoneme sequence: / k a ch i N /</b></left></td>
+    <td><left><b>&nbsp;Phoneme sequence: / k a ch i q /</b></left></td>
+    <td><left><b>&nbsp;Phoneme sequence: / p i N q /</b></left></td>
+    </tr>
+    <tr>
+    <td class="td-css-top">
+    <audio controls="">
+    <source src="./sound/compare_onoma/cup/cup1_seq2seq_kachiN.wav" type="audio/wav">
+    Your browser does not support the audio element.
+    </audio>
+    </td>
+    <td class="td-css-top">
+    <audio controls="">
+    <source src="./sound/compare_onoma/cup/cup1_seq2seq_kachiq.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td class="td-css-top">
+        <audio controls="">
+    <source src="./sound/compare_onoma/cup/cup1_seq2seq_piNq.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    </td>
+    </td>
+    </tr>
+    </div>
+
+
+    <td colspan="3"><left><b>&nbsp;Sound event label: Shaver</b></left></td>
+    <tr>
+    <td><left><b>&nbsp;Phoneme sequence: / b a: u a /</b></left></td>
+    <td><left><b>&nbsp;Phoneme sequence: / b e: /</b></left></td>
+    <td><left><b>&nbsp;Phoneme sequence: / j i i: j i i: i /</b></left></td>
+    </tr>
+    <tr>
+    <td class="td-css-top">
+    <audio controls="">
+    <source src="./sound/compare_onoma/shaver/shaver_seq2seq_EventLabel_b a_ u a.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td class="td-css-top">
+    <audio controls="">
+    <source src="./sound/compare_onoma/shaver/shaver_seq2seq_EventLabel_b e_.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    <td class="td-css-top">
+    <audio controls="">
+    <source src="./sound/compare_onoma/shaver/shaver_seq2seq_EventLabel_j i i_ i j i i_ i.wav" type="audio/wav">
+    Your browser does not support the audio element.
+　　</audio>
+    </td>
+    </tr>
+    </div>
+    </tr>
+    </div>
+    </table>
+    </p>
+    <br><br><br>
+
 
     <p>
     <br>
     <br>
     [1] Yuki Okamoto, Keisuke Imoto, Shinnosuke Takamichi, Ryosuke Yamanishi, Takahiro Fukumori, and Yoichi Yamashita, "Onoma-to-wave: Environmental Sound Synthesis from Onomatopoeic Words," arXiv preprint, arXiv:2102.05872, 2021. <br>
     [2] Ilya Sutskever, Oriol Vinyalsa and Quoc V. Le, "Sequence to Sequence Learning with Neural Networks," arXiv preprint, arXiv:1409.3215, 2014. <br> 
-    [3] S. Nakamura, K. Hiyane, F. Asano, and T. Endo, “Acoustical Sound Database in Real Environments for Sound Scene Understanding and Hands-free Speech Recognition,” Proc. Language Resources and Evaluation Conference (LREC), pp. 965–968, 2000.<br>
+    [3] S. Nakamura, K. Hiyane, F. Asano, and T. Endo, “Sound scene data collection in real acoustic environments,” The Journal of the Acoustic Society of Japan (E), vol. 20, No. 3, pp. 225–231, 1999.<br>
     [4] Yuki Okamoto, Keisuke Imoto, Shinnosuke Takamichi, Ryosuke Yamanishi, Takahiro Fukumori, and Yoichi Yamashita, "RWCP-SSD-Onomatopoeia: Onomatopoeic Word Dataset for Environmental Sound Synthesis," Proc. Detection and Classification of Acoustic Scenes and Events (DCASE), pp. 125-129, 2020. 
     </p>
     </left>
